@@ -5,6 +5,6 @@ describe('Testing APP component', () => {
   it('render component', async () => {
     const wrapper = mount(App);
 
-    expect(wrapper.text()).toContain('Vite + Vue');
+    expect(wrapper.text()).toContain('Welcome to Vue + Vitest');
   })
 })
