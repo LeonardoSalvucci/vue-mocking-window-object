@@ -5,7 +5,7 @@ import EthereumAddress from './EthereumAddress.vue';
 // Testing purpose ethereum address
 const testingAddress = '0x839Be166ee5Ac99309C0A0796867942822a5E8BE';
 // testid reference tag
-const referenceLabel = '[data-testid="ethereumAddress"';
+const referenceLabel = '[data-testid="ethereumAddress"]';
 // Etherscan url from environmend
 const ETHERSCAN_URL = import.meta.env.VITE_APP_ETHERSCAN_URL;
 
